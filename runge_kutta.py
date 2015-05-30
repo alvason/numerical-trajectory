@@ -317,13 +317,13 @@ plt.title(r'$ Effectiveness \ of \ Runge-Kutta-4th-coupled \ (h = %f, \ steps = 
           , fontsize = AlvaFontSize);
 plt.xlabel(r'$ x $', fontsize = AlvaFontSize)
 plt.ylabel(r'$ y $', fontsize = AlvaFontSize)
-plt.legend(loc = (1, 1))
-plt.text(maxX*1.2, 6.0/6, r'$ \frac{\partial z(x)}{\partial x} = -y $'
+plt.legend(loc = (1, 0))
+plt.text(maxX*1.12, 2.3, r'$ \frac{\partial z(x)}{\partial x} = -y $'
          , fontsize = 1.2*AlvaFontSize)
-plt.text(maxX*1.2, 1.0/6, r'$ \frac{\partial y(x)}{\partial x} = z $'
+plt.text(maxX*1.12, 1.3, r'$ \frac{\partial y(x)}{\partial x} = z $'
          , fontsize = 1.2*AlvaFontSize)
-plt.text(maxX*1.2, -3.0/6, r'$ z = cos(x) $', fontsize = 1.2*AlvaFontSize)
-plt.text(maxX*1.2, -6.0/6, r'$ y = sin(x) $', fontsize = 1.2*AlvaFontSize)
+plt.text(maxX*1.12, 0.7, r'$ z = cos(x) $', fontsize = 1.2*AlvaFontSize)
+plt.text(maxX*1.12, 0, r'$ y = sin(x) $', fontsize = 1.2*AlvaFontSize)
 plt.savefig(save_figure, dpi = 300)
 plt.show()
 
